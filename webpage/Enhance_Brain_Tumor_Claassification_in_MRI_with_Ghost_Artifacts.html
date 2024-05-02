@@ -1,0 +1,57 @@
+<!-- The structure for this template is code adapted from https://cs.nyu.edu/~deigen/depth/ -->
+<!-- Please site this website if made public -->
+<HTML>
+<HEAD>
+<title>MyProject: Deep Neural Networks with Physical Layers</title>
+<LINK REL="stylesheet" HREF="style.css">
+</HEAD>
+<BODY bgcolor="white">
+<center>
+<h2>MyProject: Enhancing Tumor Classification In MRI Images with Ghosting Artifacts</h2>
+<h3>Emma Nisbet &nbsp;&nbsp;&nbsp;&nbsp;
+    Mengde Liu &nbsp;&nbsp;&nbsp;&nbsp;
+    Talya Jeter
+</h3>
+<h4>
+emma.nisbet<!-- x -->@<!-- -->duke.<!-- h -->edu
+&nbsp;&nbsp;&nbsp;
+mengde.liu<!-- x -->@<!-- -->duke.<!-- h -->edu
+&nbsp;&nbsp;&nbsp;
+talya.jeter<!-- x -->@<!-- -->duke.<!-- h -->edu
+</h4>
+<p>
+<table border=0 width="25%">
+<tr>
+<!-- Provide link to your paper below -->
+<td align="center"><a href="Enh_Tumr_Clas_w_Gho_Art.pdf"><font size="+1">Paper PDF</font></a>
+</tr>
+</table>
+
+<!-- Provide link to your "teaser figure - this should summarize your findings at a glace" -->
+<p>
+<img src="Abstract_Img.png" width="40%">
+<p>
+<table width="80%">
+<tr><td align="left">
+<p>
+Streamlining brain tumor classification with MRI images with machine learning algorithms can facilitate faster and more accurate diagnosis in clinical settings. While current algorithms can achieve good Classification accuracy, we wanted to investigate the possibility of further enhancing algorithm performance by taking advantage of ghosting artifacts which can potentially amplify tumor-related features in images. In this work, we We incorporated a
+physical layer of our model that generated ghosting in the horizontal, vertical, and diagonal directions. We then took a weighted sum of each ghosted direction with the original image. With this model, we were able to classify between glioma, meningioma, pituitary tumor, and no tumor groups with an accuracy of 91%. Interestingly the final weights indicated that horizontal ghosted is favored over other types of ghosting artifacts (including no ghosting artifacts).
+
+<!-- Provide link to your write-up -->
+<tr><td align="left">
+Paper:
+<ul>
+<li><a href="my_paper.pdf"><font size="+1">Paper PDF</font></a>
+</ul>
+
+<tr><td align="left">
+Code and Data:
+<ul>
+<li>Code Availability: <a href="https://github.com/enisbet/BME548-Final.git">GitHub Repo</a>
+<li>Dataset: <a href="https://doi.org/10.34740/KAGGLE/DSV/2645886">Brain Tumor MRI Dataset</a>
+</ul>
+
+</table>
+</center>
+
+</BODY>
