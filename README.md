@@ -5,4 +5,4 @@ This project fine-tuned a ResNet-50 model for multi-class classification on MRI 
 
 You can find all code for this project in ResNet50_Modeling.ipynb. 
 
-The link to our dataset can be found here: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+The link to the dataset used can be found here: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
